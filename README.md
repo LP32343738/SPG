@@ -20,22 +20,16 @@ cd SPG
 pip install -r requirements.txt
 ```
 
-# LP-2024 Dataset
-We offer the LP-2024 Dataset for download.
-[GDrive](https://drive.google.com/file/d/1ZmW0wFJZnvLamzdFMKWf8kiDqvlUGVGn/view?usp=sharing)
+# LP2024 Dataset
+Please visit the [LP2024](https://github.com/LP32343738/LP2024) for detailed information and download instructions.
+
 
 
 # Pretrained Models
 Get the pretrained models from GoogleDrive.
-[GDrive](https://drive.google.com/file/d/1ZmW0wFJZnvLamzdFMKWf8kiDqvlUGVGn/view?usp=sharing)
+[GDrive](https://drive.google.com/file/d/1M2tJ1k5iHhwPt_o-y9JrQktWWH59mxp0/view?usp=sharing)
 
 Please place the checkpoint files in the `./` directory.
-
-
-# Demo Pretrained Model
-|Demo Pretrained Model|
-|---|
-|[GDrive](https://drive.google.com/file/d/118EZBG9g3EN1SX89MaWk_RvhXQeBcZxn/view?usp=sharing)|
 
 
 # Training
@@ -59,6 +53,11 @@ Additional flags:
 - `--input_dir /path/to/checkpoint` set up an image for license plate text replacement
 - `--input_text /path/to/dataset` set the text to be replaced
 - `--checkpoint ` set the path of trained model
+
+# Demo Pretrained Model
+|Demo Pretrained Model|
+|---|
+|[GDrive](https://drive.google.com/file/d/118EZBG9g3EN1SX89MaWk_RvhXQeBcZxn/view?usp=sharing)|
 
 
     
