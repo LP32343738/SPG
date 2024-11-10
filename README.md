@@ -24,17 +24,31 @@ pip install -r requirements.txt
 We offer the LP-2024 Dataset for download.
 [GDrive](https://drive.google.com/file/d/1ZmW0wFJZnvLamzdFMKWf8kiDqvlUGVGn/view?usp=sharing)
 
+# Pretrained Models
+Get the pretrained models from GoogleDrive.
+[GDrive](https://drive.google.com/file/d/1ZmW0wFJZnvLamzdFMKWf8kiDqvlUGVGn/view?usp=sharing)
+
+Please place the checkpoint files in the `./` directory.
 
 # Demo Pretrained Model
 |Demo Pretrained Model|
 |---|
-|[GDrive](https://drive.google.com/drive/folders/1yHrOIKB0cttrDxHeAN5Yh8KOjGy3CNHy?usp=sharing)|
+|[GDrive](https://drive.google.com/file/d/118EZBG9g3EN1SX89MaWk_RvhXQeBcZxn/view?usp=sharing)|
 
-Please place the checkpoint files in the `./` directory.
+# Demo
+```
+python predict.py --input_dir=i_s --input_text=gt.txt --checkpoint=./SPG_Demo.model
+```
+Additional flags:
+- `--input_dir /path/to/checkpoint` set up an image for license plate text replacement
+- `--input_text /path/to/dataset` set the text to be replaced
+- `--checkpoint ` set the path of trained model
+
+
 
 # Inference
 ```
-python predict.py --input_dir=i_s --input_text=gt.txt --checkpoint=./train_step-xxxxx.model.model
+python predict.py --input_dir=i_s --input_text=gt.txt --checkpoint=./train_step-xxxxx.model
 ```
 You can use `demo_cam.py` for a camera demo, or `demo_video.py` for a video demo. Additionally, we also offer a UI method using `demo_ui.py`.
 
