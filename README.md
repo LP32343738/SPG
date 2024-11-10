@@ -9,16 +9,16 @@
 # Getting Started
 - Clone the repo:
 ```
-git clone https://github.com/AvLab-CV/PASL.git
-cd PASL
+git clone https://github.com/LP32343738/SPG.git
+cd SPG
 ```
 # Installation
 - Python 3.7
-- Pytorch 1.12.1
+- Pytorch 1.11.0
 2. Install the requirements
-   ```
-    conda env create -f environment.yml
-    ```
+```
+pip install -r requirements.txt
+```
 3. Please refer to [Pytorch3d](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md) to install pytorch3d.
 
 # Voxceleb2 LP Dataset
