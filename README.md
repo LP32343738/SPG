@@ -20,9 +20,9 @@ cd SPG
 pip install -r requirements.txt
 ```
 
-# Voxceleb2 LP Dataset
-We offer the Voxceleb2 LP Dataset for download.
-[GDrive](https://drive.google.com/drive/folders/1kHeXm9hOPCsF1Jyh9hVTqvPagYvvf-w8?usp=sharing)
+# LP-2024 Dataset
+We offer the LP-2024 Dataset for download.
+[GDrive](https://drive.google.com/file/d/1ZmW0wFJZnvLamzdFMKWf8kiDqvlUGVGn/view?usp=sharing)
 
 # Training and Testing Lists 
 We provide the training and testing lists for MPIE-LP and Voxceleb2, as well as the testing list for Voxceleb1.
