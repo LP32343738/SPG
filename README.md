@@ -32,16 +32,9 @@ We offer the LP-2024 Dataset for download.
 
 Please place the checkpoint files in the `./` directory.
 
-# Auxiliary Models
-|Path|Description|
-|---|---|
-|[DECA model](https://drive.google.com/file/d/1oMwg5xzkgPkYiZT_ZUCwk7CdttEbubkD/view?usp=sharing)|Please unzip and place them in the main directory.|
-
 # Inference
 ```
-python demo_cam.py
-python demo_video.py
-python demo_ui.py
+python predict.py --input_dir=i_s --input_text=gt.txt --checkpoint=./train_step-xxxxx.model.model
 ```
 You can use `demo_cam.py` for a camera demo, or `demo_video.py` for a video demo. Additionally, we also offer a UI method using `demo_ui.py`.
 
