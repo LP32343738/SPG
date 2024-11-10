@@ -34,32 +34,31 @@ train_recognizer = True
 experiment_name = 'finetune_large_0829'
 
 #checkpoint_save_direction
-checkpoint_savedir = '/media/avlab/disk3/checkpoints/finetune_large_0829/checkpoints'
+checkpoint_savedir = './checkpoints'
 loss_txt = './loss'
 
 #pretrained_path
-ckpt_path = '/media/avlab/disk3/checkpoints/checkpoints_0822/checkpoints/train_step-500000.model'
-rec_ckpt_path = '/media/avlab/91973954-b144-4aaf-8efc-932b487ff082/deep-text-recognition-benchmark-master_github/saved_models/TPS-ResNet-BiLSTM-Attn-Seed1111_LP2024syn_dot/best_accuracy.pth'
-clip_pretrained = '/media/avlab/91973954-b144-4aaf-8efc-932b487ff082/scenetext/SPG_CLIP_textAdain/pretrained/clip/ViT-B-16.pt'
+ckpt_path = './checkpoints/train_step-500000.model'
+rec_ckpt_path = './rec_checkpoints/TPS-ResNet-BiLSTM-Attn-Seed1111_LP2024syn_dot/best_accuracy.pth'
+clip_pretrained = './SPG_CLIP_textAdain/pretrained/clip/ViT-B-16.pt'
 
 #Finetune_ckeckpoints
-finetune_ckpt_path = '/media/avlab/disk3/checkpoints/checkpoints_0824/checkpoints/train_step-525000.model'
-finetune_ckpt_savedir = '/media/avlab/disk3/checkpoints/finetune_large_0829/checkpoints/'
+finetune_ckpt_path = './checkpoints/train_step-525000.model'
+finetune_ckpt_savedir = './checkpoints/'
 save_epoch = 10
 predict_image = 5
 
 # train_path
-# data_dir = '/media/avlab/disk2/LP2024_trainingset/647_contrast_low_150k_LMDB'
-data_dir = '/media/avlab/disk2/LP2024_trainingset/contrast_150k_LMDB'
-# real_data_dir = '/media/avlab/91973954-b144-4aaf-8efc-932b487ff082/SPG_CLIP/datasets/LP2024'
+data_dir = './contrast_150k_LMDB'
+
 
 # validation path
-test_data_dir = '/media/avlab/91973954-b144-4aaf-8efc-932b487ff082/LP2023_datasets/Real_data/LP2024/train'
-temp_data_dir = '/media/avlab/disk3/checkpoints/finetune_large_0829/test_data'
+test_data_dir = './Real_data/LP2024/train'
+temp_data_dir = './checkpoints/finetune_large_0829/test_data'
 
 
-finetune_dir = '/media/avlab/91973954-b144-4aaf-8efc-932b487ff082/scenetext/SRNet-Datagen_LP2024_Jimmy/finetune_large_0829'
-# select_data_dir = '/home/avlab/scenetext/test_data/lp2022_select0622'
+finetune_dir = './'
+
 
 # dataloader
 batch_size = 16
