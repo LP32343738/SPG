@@ -30,7 +30,7 @@ We offer the LP-2024 Dataset for download.
 |---|
 |[GDrive](https://drive.google.com/drive/folders/1yHrOIKB0cttrDxHeAN5Yh8KOjGy3CNHy?usp=sharing)|
 
-Please place the checkpoint files in the `./experiment/demo` directory.
+Please place the checkpoint files in the `./` directory.
 
 # Auxiliary Models
 |Path|Description|
