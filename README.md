@@ -19,7 +19,6 @@ cd SPG
 ```
 pip install -r requirements.txt
 ```
-3. Please refer to [Pytorch3d](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md) to install pytorch3d.
 
 # Voxceleb2 LP Dataset
 We offer the Voxceleb2 LP Dataset for download.
