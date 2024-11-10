@@ -24,9 +24,6 @@ pip install -r requirements.txt
 We offer the LP-2024 Dataset for download.
 [GDrive](https://drive.google.com/file/d/1ZmW0wFJZnvLamzdFMKWf8kiDqvlUGVGn/view?usp=sharing)
 
-# Training and Testing Lists 
-We provide the training and testing lists for MPIE-LP and Voxceleb2, as well as the testing list for Voxceleb1.
-[GDrive](https://drive.google.com/drive/folders/13yte5HkvXfZvToAN0jebS304Lj009rzo?usp=sharing)
 
 # Demo Pretrained Model
 |Demo Pretrained Model|
