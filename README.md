@@ -50,8 +50,8 @@ python train_all_finetune.py
 python predict.py --input_dir=i_s --input_text=gt.txt --checkpoint=./train_step-xxx.model
 ```
 Additional flags:
-- `--input_dir /path/to/checkpoint` set up an image for license plate text replacement
-- `--input_text /path/to/dataset` set the text to be replaced
+- `--input_dir /path/to/i_s` set up an image for license plate text replacement
+- `--input_text /path/to/gt.txt` set the text to be replaced
 - `--checkpoint ` set the path of trained model
 
 # Demo Pretrained Model
