@@ -23,7 +23,8 @@ pip install -r requirements.txt
 # LP2024 Dataset
 Please visit the [LP2024](https://github.com/LP32343738/LP2024) for detailed information and download instructions.
 
-
+# CCPD Syn Dataset
+If you wish to obtain the dataset, please send a hard drive to the laboratory of Prof. Gee-Sern (Jison) Hsu, Department of Mechanical Engineering, National Taiwan University of Science and Technology.
 
 # Pretrained Models
 Get the pretrained models from GoogleDrive.
