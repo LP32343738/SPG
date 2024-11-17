@@ -58,7 +58,7 @@ Additional flags:
 # Demo Pretrained Model
 |Demo Pretrained Model|
 |---|
-|[GDrive](https://drive.google.com/file/d/118EZBG9g3EN1SX89MaWk_RvhXQeBcZxn/view?usp=sharing)|
+|[GDrive](https://drive.google.com/drive/folders/1dNTJh1kqhOg1FBNMCZ4jIcqKC6tBPcG9?usp=sharing)|
 
 
     
