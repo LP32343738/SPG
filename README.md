@@ -35,12 +35,12 @@ Please place the checkpoint files in the `./` directory.
 
 # Training
 
-phase1
+Phase 1 involves using synthetic training data with ground-truth character masks available, 
 ```
 python train_all.py 
 ```
 
-phase2
+Phase 2 involves hybrid training using both synthetic and real-life data.
 ```
 python train_all_finetune.py 
 ```
@@ -55,8 +55,8 @@ Additional flags:
 - `--input_text /path/to/gt.txt` set the text to be replaced
 - `--checkpoint ` set the path of trained model
 
-# Demo Pretrained Model
-|Demo Pretrained Model|
+# Checkpoint
+|Checkpoint|
 |---|
 |[GDrive](https://drive.google.com/drive/folders/1dNTJh1kqhOg1FBNMCZ4jIcqKC6tBPcG9?usp=sharing)|
 
