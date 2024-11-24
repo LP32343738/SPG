@@ -26,11 +26,6 @@ Please visit the [LP2024](https://github.com/LP32343738/LP2024) for detailed inf
 # CCPD Syn Dataset
 If you wish to obtain the dataset, please send a hard drive to the laboratory of Prof. Gee-Sern (Jison) Hsu, Department of Mechanical Engineering, National Taiwan University of Science and Technology.
 
-# Pretrained Models
-Get the pretrained models from [GoogleDrive](https://drive.google.com/file/d/1M2tJ1k5iHhwPt_o-y9JrQktWWH59mxp0/view?usp=sharing).
-
-
-Please place the checkpoint files in the `./` directory.
 
 
 # Training
